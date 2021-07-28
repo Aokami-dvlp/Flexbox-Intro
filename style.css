@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-item {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+
+/*Segue codice utile solo a stilizzare i vari DIV per rendere il renderizzato più leggibile*/
+
+#item1 {
+    background-color: blue;
+}
+
+#item2 {
+    background-color: yellow;
+}
+
+#item3 {
+    background-color: violet;
+}
+
+#item4 {
+    background-color: green;
+}
+
+#item5 {
+    background-color: indianred;
+}
+
+#item1,
+#item2,
+#item3,
+#item4,
+#item5 {
+    font-size: 4rem;
+    text-align: center;
+    color: lightskyblue;
+}
